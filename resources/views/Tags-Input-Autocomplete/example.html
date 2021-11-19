@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Responsive Tags Input With Autocomplete Examples</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+	<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+	<script src="src/jquery.tagsinput-revisited.js"></script>
+	<link rel="stylesheet" href="src/jquery.tagsinput-revisited.css" />
+
+</head>
+<body>
+
+	<style>
+	.ui-widget-content{
+		background: #333 !important;
+		color: #FFF !important;
+		padding: 0;
+		width: 150px;
+	}
+	.ui-widget-content li{
+		list-style: none;
+		padding-left: 30px;
+		cursor: pointer;
+
+	}
+	.ui-widget-content li:hover{
+		background: #0d74bb!important;
+		color: #FFF !important;
+
+	}
+	</style>
+
+	<label>Tags input with autocomplete:</label>
+	<input id="form-tags-4" name="tags-4" type="text" value="apple, orange">
+
+
+	<script type="text/javascript">
+	$(function() {
+		$('#form-tags-4').tagsInput({
+			'autocomplete': {
+				source: [
+					'apple',
+					'banana',
+					'orange',
+					'pizza'
+				]
+			}
+		});
+
+	});
+	</script>
+</body>
+</html>

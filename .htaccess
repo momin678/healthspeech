@@ -1,0 +1,100 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ ^$1 [N]
+
+RewriteCond %{REQUEST_URI} (\.\w+$) [NC]
+RewriteRule ^(.*)$ public/$1 
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ server.php
+
+Redirect 301 /best-7-hospital-in-bangkok/ https://www.healthspeech.com/
+Redirect 301 /how-to-lose-weight-fast-for-men/ https://www.healthspeech.com/article/how-to-lose-weight-fast-for-women
+Redirect 301 /pulled-muscle-in-upper-back-types-causes-treatments/ https://www.healthspeech.com/
+Redirect 301 /essential-oils-for-high-blood-pressure/ https://www.healthspeech.com/article/essential-oils-for-high-blood-pressure
+Redirect 301 /nursing-diagnosis-for-diabetes/ https://www.healthspeech.com/article/nursing-diagnosis-for-diabetes
+Redirect 301 /chances-of-getting-pregnant-with-precum/ https://www.healthspeech.com/article/chances-of-getting-pregnant-with-precum
+Redirect 301 /how-to-gain-weight https://www.healthspeech.com/article/how-to-gain-weight-fast-and-easy
+Redirect 301 /how-to-gain-weight/ https://www.healthspeech.com/article/how-to-gain-weight-fast-and-easy
+Redirect 301 /how-to-get-rid-of-hiccups/ https://www.healthspeech.com/article/how-to-get-rid-of-man-boobs
+Redirect 301 /blood-test-for-pregnancy-how-long-for-results/ https://www.healthspeech.com/article/how-long-does-it-take-to-get-blood-test-results-for-pregnancy
+Redirect 301 /the-mediterranean-diet-food-list-7-days-meal-plan/ https://www.healthspeech.com/article/the-mediterranean-diet-food-list-7-days-meal-plan
+Redirect 301 /urine-pregnancy-test-accuracy/ https://www.healthspeech.com/article/urine-pregnancy-test-accuracy
+Redirect 301 /best-muscle-building-supplements/ https://www.healthspeech.com/article/best-muscle-building-supplements
+Redirect 301 /sleep-apnea-symptoms-causes-risk-types-treatment/ https://www.healthspeech.com/article/sleep-apnea-treatment-symptoms-causes
+Redirect 301 /allergy-symptoms-causes-types-tests-treatment/ https://www.healthspeech.com/article/allergy-symptoms-causes-types-tests-treatment
+Redirect 301 /medical-content/ https://www.healthspeech.com/
+Redirect 301 /what-is-acid-reflux-causes-types-treatment/ https://www.healthspeech.com/article/What-is-Acid-Reflux-Causes%2C-Types%2C-Treatment
+Redirect 301 /how-to-whiten-teeth-with-baking-soda/ https://www.healthspeech.com/article/how-to-whiten-teeth-with-baking-soda
+Redirect 301 /bladder-cancer/ https://www.healthspeech.com/article/what-is-bladder-cancer-symptoms-causes-treatment
+Redirect 301 /how-to-get-rid-of-man-boobs/ https://www.healthspeech.com/article/how-to-get-rid-of-man-boobs
+Redirect 301 /very-low-calorie-diet/ https://www.healthspeech.com/article/very-low-calorie-diet
+Redirect 301 /what-is-hip-pain-causes-symptoms-treatment/ https://www.healthspeech.com/article/what-is-hernia-symptom-types-causes-treatment
+Redirect 301 /how-long-does-wisdom-tooth-pain-last/ https://www.healthspeech.com/article/how-long-does-wisdom-tooth-pain-last-after-extraction
+Redirect 301 /what-is-hernia-symptom-types-causes-treatment/ https://www.healthspeech.com/article/what-is-hernia-symptom-types-causes-treatment
+Redirect 301 /how-do-you-feel-better-after-wisdom-teeth-removal/ https://www.healthspeech.com/article/how-do-you-feel-after-wisdom-teeth-removal
+Redirect 301 /migraine-symptoms-causes-risk-test-treatment/ https://www.healthspeech.com/article/migraine-symptoms-causes-risk-factor-test-treatment-and-more
+Redirect 301 /type-1-diabetes-pregnancy/ https://www.healthspeech.com/article/type-1-diabetes-pregnancy-and-management
+Redirect 301 /700-calorie-a-day-diet-plan/ https://www.healthspeech.com/article/700-calorie-a-day-diet-plan
+Redirect 301 /hair-loss-symptoms-tests-types-causes-treatment/ https://www.healthspeech.com/article/hair-loss-symptoms-tests-types-causes-treatment
+Redirect 301 /how-to-use-apple-cider-vinegar-for-weight-loss/ https://www.healthspeech.com/article/how-to-use-apple-cider-vinegar-for-weight-loss
+Redirect 301 /types-of-dental-implants/ https://www.healthspeech.com/article/types-of-dental-implants-techniques-risks
+Redirect 301 /type-1-diabetes-type-2-diabetes/ https://www.healthspeech.com/article/what-is-diabetes-type-1-type-2-diabetes-symptoms-causes
+Redirect 301 /how-to-lose-weight-fast/ https://www.healthspeech.com/article/how-to-lose-weight-fast
+Redirect 301 /how-to-lose-weight-fast https://www.healthspeech.com/article/how-to-lose-weight-fast
+Redirect 301 /headaches-in-pregnancy-2nd-trimester/ https://www.healthspeech.com/article/headaches-in-pregnancy-second-trimester
+Redirect 301 /heart-attack-symptoms-causes-treatments/ https://www.healthspeech.com/article/heart-attack-symptoms-causes-treatments
+Redirect 301 /what-is-depression/ https://www.healthspeech.com/article/what-is-depression-causes-symptoms-types
+Redirect 301 /how-to-lose-weight-fast-for-women/ https://www.healthspeech.com/article/how-to-lose-weight-fast-for-men
+Redirect 301 /breast-cancer/ https://www.healthspeech.com/article/what-is-breast-cancer-sing-symptoms-stages-causes
+Redirect 301 /category/sleep-apnea/ https://www.healthspeech.com/article-categories/Sleep-Apnea
+Redirect 301 /post-question-via-form/ https://www.healthspeech.com/
+Redirect 301 /category/weight-gain/ https://www.healthspeech.com/article-categories/Weight-Gain
+Redirect 301 /category/cancer/ https://www.healthspeech.com/article-categories/Cancer
+Redirect 301 /dir-search/ https://www.healthspeech.com/
+Redirect 301 /category/blood-pressure/ https://www.healthspeech.com/article-categories/Blood-Pressure
+Redirect 301 /tag/bladder-cancer-definition/ https://www.healthspeech.com/
+Redirect 301 /tag/low-calorie-diet-supports/ https://www.healthspeech.com/
+Redirect 301 /category/migraine-headache/ https://www.healthspeech.com/article-categories/Migraine-&-headache
+Redirect 301 /category/dental/ https://www.healthspeech.com/article-categories/Dental
+Redirect 301 /category/acid-reflux/ https://www.healthspeech.com/article-categories/Acid-reflux
+Redirect 301 /category/pregnancy/ https://www.healthspeech.com/article-categories/Pregnancy
+Redirect 301 /category/heart-attack/ https://www.healthspeech.com/article-categories/Heart-attack
+Redirect 301 /tag/mediterranean-diet-recipes/ https://www.healthspeech.com/
+Redirect 301 /tag/what-is-low-calorie-diet/ https://www.healthspeech.com/
+Redirect 301 /tag/how-long-does-pain/ https://www.healthspeech.com/
+Redirect 301 /category/diabetes/ https://www.healthspeech.com/article-categories/Diabetics
+Redirect 301 /tag/high-blood-pressure-tips/ https://www.healthspeech.com/
+Redirect 301 /tag/low-calorie-vegetables/ https://www.healthspeech.com/
+Redirect 301 /category/healthy-foods/ https://www.healthspeech.com/article-categories/Healthy-Food
+Redirect 301 /provider-category/hospital/ https://www.healthspeech.com/
+Redirect 301 /category/weight-loss/ https://www.healthspeech.com/article-categories/Weight-Loss
+Redirect 301 /category/allergy/ https://www.healthspeech.com/article-categories/Allergy
+Redirect 301 /category/hair-loss/ https://www.healthspeech.com/article-categories/Hair-Loss
+Redirect 301 /tag/very-low-calorie/ https://www.healthspeech.com/
+Redirect 301 /category/hernia/ https://www.healthspeech.com/article-categories/hernia
+Redirect 301 /category/depression/ https://www.healthspeech.com/article-categories/Depression
+Redirect 301 /tag/allergy-tests/ https://www.healthspeech.com/
+Redirect 301 /tag/physical-workout/ https://www.healthspeech.com/
+Redirect 301 /tag/at-home/ https://www.healthspeech.com/
+Redirect 301 /tag/healthy-diet-plan/ https://www.healthspeech.com/
+Redirect 301 /tag/types-of-diabetes/ https://www.healthspeech.com/
+Redirect 301 /category/hip-pain/ https://www.healthspeech.com/article-categories/hip-pain
+Redirect 301 /wp-content/uploads/2019/04/how-to-lose-weight-fast-for-men-1170x450.jpg https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2020/01/How-to-get-rid-of-hiccups.jpg https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2019/03/How-to-get-pregnant-fast-and-easy-1170x450.jpg https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2019/10/Cancer-Treatment-Centers-of-America®-Atlanta-_-CTCA1-270x270.png https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2019/08/Chances-of-getting-pregnant-with-precum.jpg https://www.healthspeech.com/
+Redirect 301 /cgi-sys/suspendedpage.cgi https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2020/01/Symptoms-of-hair-loss.jpg https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2019/12/BNH-Hospital.jpg https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2019/03/How-long-does-pain-after-wisdom-tooth-extraction-last.jpg https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2019/04/How-to-use-apple-cider-vinegar-for-weight-loss-1170x450.jpg https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2020/01/hair-loss.png https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2020/01/How-to-get-rid-of-hiccups-on-babies.png https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2019/03/How-to-lose-belly-fat-fast-1170x450.jpg https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2019/10/New-York-Athletic-Club-03.jpg https://www.healthspeech.com/
+Redirect 301 /wp-content/uploads/2019/10/nursing-care-plan-for-diabetes-1170x450-1-1170x450.jpg https://www.healthspeech.com/article/nursing-diagnosis-for-diabetes
