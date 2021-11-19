@@ -118,5 +118,5 @@ Route::get('advisment', 'FooterController@advisment');
 Route::get('write-us', 'FooterController@write_us');
 Route::get('health-topics', 'FooterController@health_topics');
 Route::get('all-health-topics', 'HealthTopicController@all_health_topic')->name('all-health-topics');
-Route::get('blog-list-by-topic/{slug}', 'HealthTopicController@blog_list_by_topic')->name('blog-list-by-topic');
+Route::get('article-categories/{slug}', 'HealthTopicController@blog_list_by_topic')->name('article-categories');
 

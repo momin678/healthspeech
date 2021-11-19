@@ -38,19 +38,19 @@
 <h2>Categories that you can write for us:</h2>
 <ul>
     <li><a href="https://www.healthspeech.com/">Health Condition</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Allergy">Allergy</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Healthy-Food">Healthy Food</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Blood-Pressure">Blood Pressure</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Cancer">Cancer</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Dental">Dental</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Diabetics">Diabetes</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Depression">Depression</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Heart-attack">Heart attack</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Migraine-&-headache">Migraine & headache</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Migraine-&-headache">Pregnancy</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Sleep-Apnea">Sleep Apnea</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Weight-Gain">Weight Gain</a></li>
-    <li><a href="https://www.healthspeech.com/blog-list-by-topic/Weight-Loss">Weight Loss</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Allergy">Allergy</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Healthy-Food">Healthy Food</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Blood-Pressure">Blood Pressure</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Cancer">Cancer</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Dental">Dental</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Diabetics">Diabetes</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Depression">Depression</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Heart-attack">Heart attack</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Migraine-&-headache">Migraine & headache</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Migraine-&-headache">Pregnancy</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Sleep-Apnea">Sleep Apnea</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Weight-Gain">Weight Gain</a></li>
+    <li><a href="https://www.healthspeech.com/article-categories/Weight-Loss">Weight Loss</a></li>
     </ul>
 <p>Please do not send any unrelated article other than these categories, as they will not get published.</p>
 <h3>Keep these things in mind while writing for us :</h3>

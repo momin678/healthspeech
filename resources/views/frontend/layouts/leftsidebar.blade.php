@@ -16,7 +16,7 @@
                         <ul class="ml-menu">
                             
                             @foreach(\App\Models\HealthTopic::all() as $topic)
-                            <li><a href="{{route('blog-list-by-topic', $topic->slug)}}">{{$topic->health_topic_name}}</a></li>
+                            <li><a href="{{route('article-categories', $topic->slug)}}">{{$topic->health_topic_name}}</a></li>
                             @endforeach
                             <li><a href="{{route('all-health-topics')}}">All</a></li>
                         </ul>

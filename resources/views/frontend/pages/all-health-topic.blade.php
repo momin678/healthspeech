@@ -27,7 +27,7 @@
             @foreach($allTopics as $topic)
                 <div class="col-md-3">
                     <div>
-                        <a href="{{route('blog-list-by-topic', $topic->slug)}}">{{$topic->health_topic_name}}</a>
+                        <a href="{{route('article-categories', $topic->slug)}}">{{$topic->health_topic_name}}</a>
                     </div>
                 </div>
             @endforeach

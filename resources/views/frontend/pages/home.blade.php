@@ -102,7 +102,7 @@
                                 </li>
                                 <li>
                                     @foreach(\App\Models\HealthTopic::where('id', $blogList->hs_tipics_id)->get() as $topic)
-                                    <a href="{{route('blog-list-by-topic', $topic->slug)}}"><i class="zmdi zmdi-label col-amber"></i>
+                                    <a href="{{route('article-categories', $topic->slug)}}"><i class="zmdi zmdi-label col-amber"></i>
                                         {{$topic->health_topic_name}}
                                     </a>
                                     @endforeach

@@ -45,7 +45,7 @@
             <div class="col-lg-7 col-md-7 col-sm-12">
                 <ul class="breadcrumb float-md-right">
                     <li class="breadcrumb-item"><a href="{{url('/')}}"><i class="zmdi zmdi-home"></i> Home</a></li>
-                    <li class="breadcrumb-item"><a href="{{route('blog-list-by-topic', $health_topic->slug)}}">{{$health_topic->health_topic_name}}</a></li>
+                    <li class="breadcrumb-item"><a href="{{route('article-categories', $health_topic->slug)}}">{{$health_topic->health_topic_name}}</a></li>
                     <li class="breadcrumb-item active">{{ $details->hs_title }}</li>
                 </ul>
             </div>
@@ -63,7 +63,7 @@
                             @endif                            
                             <li>
                                 @foreach(\App\Models\HealthTopic::where('id', $details->hs_tipics_id)->get() as $topic)
-                                    <a href="{{route('blog-list-by-topic', $topic->slug)}}"><i class="zmdi zmdi-label col-amber"></i>
+                                    <a href="{{route('article-categories', $topic->slug)}}"><i class="zmdi zmdi-label col-amber"></i>
                                         {{$topic->health_topic_name}}
                                     </a>
                                 @endforeach
@@ -153,7 +153,7 @@
                                 </a></li>
                                 <li>
                                     @foreach(\App\Models\HealthTopic::where('id', $blogList->hs_tipics_id)->get() as $topic)
-                                    <a href="{{route('blog-list-by-topic', $topic->slug)}}"><i class="zmdi zmdi-label col-amber"></i>
+                                    <a href="{{route('article-categories', $topic->slug)}}"><i class="zmdi zmdi-label col-amber"></i>
                                         {{$topic->health_topic_name}}
                                     </a>
                                     @endforeach
