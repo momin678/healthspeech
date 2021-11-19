@@ -70,11 +70,9 @@ Route::group(['prefix'=>'admin', 'middleware'=>['auth','isAdmin', 'PreventBackHi
     Route::get('/deactive-sub-sub-hs/{id}', 'SubSubHSController@deactive_sub_sub_hs')->name('admin.deactive-sub-sub-hs');
     Route::get('/details-sub-sub-hs/{id}', 'SubSubHSController@details_sub_sub_hs')->name('admin.details-sub-sub-hs');
     Route::get('/section-sub-sub-hs/{id}', 'SubSubHSController@section_sub_health_speech')->name('admin.section-sub-sub-hs');
-
 // user and subcriber list route----------------------------------------------------------------
     Route::get('all-subscribe', 'SubscriberController@all_subscribe')->name('admin.all-subscribe');
     Route::get('user-list', 'PatientController@user_list')->name('admin.user-list');
-
 });
 //Blog items Health Speech Route-------------------------------------------------------------------
 Route::get('/blog-list', 'BlogController@index');
@@ -118,6 +116,5 @@ Route::get('write-us', 'FooterController@write_us');
 Route::get('health-topics', 'FooterController@health_topics');
 Route::get('all-health-topics', 'HealthTopicController@all_health_topic')->name('all-health-topics');
 Route::get('article-categories/{slug}', 'HealthTopicController@blog_list_by_topic')->name('article-categories');
-
 // sitemap route ---------------------------------------------------------------
 Route::get('/sitemap.xml', 'SitemapXmlController@index')->name('sitemap.xml');
